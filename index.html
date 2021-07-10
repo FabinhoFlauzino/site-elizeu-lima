@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="assets/icon/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,17 @@
     <header id="header">
         <nav class="container">
             <a class="logo" href="#">LZU<span>Lima</span>.</a>
-            <div class="menu">...</div>
+            <div class="menu">
+                <ul class="grid">
+                    <li><a class="title" href="#home">Início</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="#contact">Contato</a></li>
+                </ul>
+            </div>
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
         </nav>
     </header>
 
@@ -24,7 +34,7 @@
         <section class="section" id="home">
             <div class="container grid">
                 <div class="image">
-                    <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                    <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="microfone">
                 </div>
                 <div class="text">
                     <h1>Elizeu Lima</h1>
@@ -37,13 +47,65 @@
         </section>
 
         <div class="divider-1"></div>
-        
-        <section class="section">
-            <div class="container">
-                outra section
+
+        <section class="section" id="about">
+            <div class="container grid">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1508829040592-72f179f8a73f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80" alt="Ajoelhado lendo a biblia">
+                </div>
+                <div class="text">
+                    <h2 class="title">Sobre nós</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ratione error eaque culpa aut? Corporis veritatis, aut enim rem necessitatibus, aspernatur, officiis nesciunt provident impedit quisquam neque amet possimus at!
+                    </p>
+                    <br>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur facilis nostrum odio, magni non ab voluptatem quam dignissimos debitis fugiat? Mollitia dicta saepe quod corporis cupiditate modi eligendi est! Recusandae?
+                    </p>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sequi rem explicabo beatae reprehenderit, ab corrupti, aspernatur iste unde voluptatem, mollitia velit. Quis architecto necessitatibus reprehenderit non facere maxime! Sint!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider-2"></div>
+
+        <section class="section" id="services">
+            <div class="container grid">
+                <header>
+                    <h2 class="title">Serviços</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus ipsam asperiores laborum exercitationem tempore.</p>
+                </header>
+                <div class="cards grid">
+                    <div class="card">
+                        <em class="icon-facebook"></em>
+                        <h3 class="title">Ministração</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quidem, minus repudiandae incidunt dolor voluptatem, quia nemo accusamus aspernatur voluptatibus laudantium. Nesciunt, corporis! Quam molestias doloremque officia animi, quo dolorem.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <em class="icon-vynil"></em>
+                        <h3 class="title">Música</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed velit sit voluptate ducimus dolores nisi distinctio, eius quibusdam eaque dolorum ipsa ut. Quia earum sequi eligendi, maxime fugiat vero repudiandae.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <em class="icon-youtube"></em>
+                        <h3 class="title">Reflexões</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus dolorem perferendis eius deleniti omnis enim doloribus amet repellat, at rem quisquam nobis similique ratione, ex nulla aspernatur officiis aperiam consequatur?
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
     </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
