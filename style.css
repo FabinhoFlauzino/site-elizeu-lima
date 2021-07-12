@@ -204,6 +204,10 @@ nav.show div.icon-close{
     color: var(--title-color);
 }
 
+.logo.logo-alt span{
+    color: var(--body-color);
+}
+
 .logo span{
     color: var(--base-color);
 }
@@ -440,4 +444,28 @@ main{
 
 #contact ul li em{
     color: var(--base-color);
+}
+
+/*Footer*/
+footer{
+    background: var(--base-color);
+}
+
+footer .logo{
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+footer .brand p{
+    color: var(--text-color-light);
+    margin-bottom: 0.75rem;
+}
+
+footer em{
+    font-size: 1.5rem;
+    color: var(--text-color-light);
+}
+
+footer .social a{
+    margin-right: 2rem;
 }
