@@ -465,6 +465,9 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+#contact .links a {
+  color: var(--text-color-color);
+}
 /*====  FOOTER ============================ */
 footer {
   background: var(--gradient-started);
